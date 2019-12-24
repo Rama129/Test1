@@ -1,0 +1,43 @@
+03/Mar/2019
+OM
+DevOps Class
+Jenkins
+Docker
+-CI
+ CD
+ CDY
+-Jenkins is the pipeline of DevOps(CIDC Pipe line)
+-Agile takes care of Developers and Testers only. Not focused on Infrastructure/Ops team
+-DevOps focus is to bring equal focus on both Dev and Ops team
+
+12/Mar/2019
+-Version Control
+ To get all modified code level changes and track those changes and with more details
+ To track the changes of the original local file. Like which developer changed and who saved those changes and kind of details
+ To maintain logs of the files
+-We have 3 Version control technique
+ Centralized
+ Distributed/Grid/Decentralized
+ Local
+-Centralized Version Control Technique
+ One server is available to all the developers 
+ Always depends on Network availability
+ Only one at a time can commit the changes to the centralized server file
+ If server is unavailable then none of the users can use the server files
+-Distributed/Grid/Decentralized
+ In this concept, developer has local repository and all the changes first commited in Local repository then moves it to the Central server
+ So all the changes are initially saved locally
+ For On Premise they use Bit Bucket
+ For Cloud environment they use gethub and getlab
+-In this concept the file changes and commited to staging area then only goes to localrepo and then moved to Remote Server
+ 1.Working Directory (gitadd)
+ 2.Staging area(git commit)
+ 3.Localrepo(gitpush)
+ 4.Remote Repo(git pull/git push)
+
+
+ 
+ 
+ 
+ 
+ 

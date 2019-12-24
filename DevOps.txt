@@ -1,0 +1,44 @@
+OM 
+28Sep
+DevOps
+GIT --Version control system
+Jenkins
+Docker is used to creare a container.
+Ex: >spk to container and then to server or VM 
+Container is an entoty to run our application.
+GIT
+Version Control system
+1. Local VCS
+2. Centralised VCS
+3. Distributed VCS
+29/Sep/2019
+GIT 
+WORKING DIRECTORY TO STAGING AREA TO Local Repository
+GIT diff -> To see the different in unstagged files
+GIT diff --staged File -> Show the different in staged files
+git rm file -> It removes from WD and LREP also
+.gitignore to untrack the files
+git checkout --file name -> remos the changed from the commited file only
+BRANCH creation
+git chekcout -b branchname
+git checckout branchname
+git merge sourcebranch to masterbranch
+STASH 
+Stash it is from WD to temporary directory
+pop stash number deletes frm temp shell
+apply stash number doesn't delete but it moves from temp dir to WD
+https://drive.google.com/drive/folders/1W4opjcQN5Q4qIJPZiAjcV-bIFFJaWbKo?usp=sharing
+
+10/05/2019
+-Get the local folder to be updated from the remote file (git pull )
+CI=C.B,C.T, C.DIRECTORY
+06/Oct/2019
+Creating jenkin Jobs
+devopstraineronline@gmail.com
+
+12/Oct/2019
+Docker
+Micro services 
+Image-Static file
+
+
