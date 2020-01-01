@@ -1,0 +1,188 @@
+03/Mar/2019
+OM
+DevOps Class
+Jenkins
+Docker
+-CI
+ CD
+ CDY
+-Jenkins is the pipeline of DevOps(CIDC Pipe line)
+-Agile takes care of Developers and Testers only. Not focused on Infrastructure/Ops team
+-DevOps focus is to bring equal focus on both Dev and Ops team
+
+12/Mar/2019
+-Version Control
+ To get all modified code level changes and track those changes and with more details
+ To track the changes of the original local file. Like which developer changed and who saved those changes and kind of details
+ To maintain logs of the files
+-We have 3 Version control technique
+ Centralized
+ Distributed/Grid/Decentralized
+ Local
+-Centralized Version Control Technique
+ One server is available to all the developers 
+ Always depends on Network availability
+ Only one at a time can commit the changes to the centralized server file
+ If server is unavailable then none of the users can use the server files
+-Distributed/Grid/Decentralized
+ In this concept, developer has local repository and all the changes first commited in Local repository then moves it to the Central server
+ So all the changes are initially saved locally
+ For On Premise they use Bit Bucket
+ For Cloud environment they use gethub and getlab
+-In this concept the file changes and commited to staging area then only goes to localrepo and then moved to Remote Server
+ 1.Working Directory (gitadd)
+ 2.Staging area(git commit)
+ 3.Localrepo(gitpush)
+ 4.Remote Repo(git pull/git push)
+
+-To get GIT through ubuntu
+ 1. Log in to AWS https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:sort=instanceId
+ 2. Make sure the instance is UP and Running
+ 3. Copy the DNS from the Description console
+ 4. Open Putty and paste the copied DNS in Host Name
+ 5. In SSH->Auth Tab clisk on browse and select putty icon
+ 7.Log now to Putty and loh in name as ubuntu
+ 
+ -GIT is a Version control technique. And it is a open source system.
+
+-to initialise git 
+git initi
+vi file name
+i to insert the details
+Esc+:x and hit Enter to save the details
+
+1. vi one.txt
+2. enter and save file
+3. git initi
+4. git add one.txt
+5. git commit
+6. git status
+
+-Working Directory 
+-Staging Area
+-localrepo
+
+-Create a .txt file in your directory
+-add to git 
+   git add filename
+-check the satus 
+   git status
+-to move the file from local directory to staging area 
+   git commit -m "Give your own comments"
+-To check the log
+    git log 
+	git log --oneline
+
+-Tag concept
+
+-To track or to see the changes to the file in staging area
+   git diff filename
+
+
+
+How to config user name ?
+How to delete a file only from one localtion but not from both the locations?
+How to see the file in both the locations ? what is the coomand ?
+
+
+
+13/03/2019
+-Branching
+Branching is Folder structure
+git checkout -b b1
+-Stashing
+Moving our data from working directory to temporary stashing
+-github.com
+
+
+14/03/3019
+-Jenkins
+CI-Continuous Integration, this is possible via Jenkins
+CB-CT-CDY
+-This can be automated by using Jenkins
+-Jenkins is a open source
+-Code built tool example is MAVEN
+-
+
+18/03/2019
+-Creating Master & Slave NODS in Jenkins
+-Docker
+Configuration Management 
+-Configuration Management tool are Puppet and Ansible
+Puppet
+Ansible 
+-Here, we write code to manage our Infrastructure  that is called as IAC
+-IAC language depends on the CM tool 
+-For Pupet it is Puppet DSL
+-For Ansible it is YAML
+-For Windows DS it is Powershell
+-Puppet is a Agent based tool
+ Puppet Master (for Master Node) and Puppet Agent (For Slave Node)
+-Puppet Master should only be installed on Linux only
+-Puppet slave/node/agent can be installed on Linux or Windows
+-Puppet catalogue contains 
+ Variable, Classes, manifest
+-port 8140
+
+19/03/2019
+-Installing Puppet
+- Manifest are the Puppet programs
+  ends with .pp
+-Resource can be anything with the puupet
+  like file, resource
+ 
+21/03/2019
+-Ansible
+ Modules-- it is Imp to perform Ansible activities
+ Inventory--To categorise the group of servers
+ Playbooks--Conncets the modules with Inventories
+-ssh is an authentication mechanism
+ used mainly for communication 
+-ANSIBLE  is a pushed based command tool
+ it uses YAML language - Ain't Markup Language
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+Doubts
+1. gitignore topic
+2. 
+
+
+Commnets:
+Check the status of Jenkins in putty 
+sudo service Jenkins status
+ 
+15/03/2019
+-MAVEN is only for Java 
+It is build automation tool
+MAVEN follows the below process
+-Compile
+-Code Review
+-Testing
+-Package
+-Deployment
+-QA Metric job
+PMD-Program mistake dictator 
+
+17/03/2019
+Preparation notes 
+Continuous Integration is
+GIT->Continuous Build->Continuous Testing->Continuous Deployment
+
+Jenkings User name and Password
+Rama_Goteti
+Rams@123#
+
+Doubts as of 17 March
+1. I am not able to see configure tab in jenkins- How to schedule jobs 
+
