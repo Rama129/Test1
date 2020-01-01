@@ -1,3 +1,7 @@
+<<<<<<< Updated upstream
 This is from Newbranch2
 This is the Second lIne	
 This is the third line
+=======
+This is from the Newbranch2 
+>>>>>>> Stashed changes
