@@ -3,6 +3,7 @@ mkdir Test
 
 =======
 <<<<<<< Updated upstream
+Making a change in the local repository
 This is from Newbranch2
 This is the Second lIne	
 This is the third line
